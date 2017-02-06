@@ -1,0 +1,14 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!-- Settings, should always be in the overflow -->
+  <item android:id="@+id/showall"
+        android:title="Show all"
+        app:showAsAction="never"/>
+  <item android:id="@+id/showuk"
+       android:title="Only UK news"
+       app:showAsAction="never"/>
+  <item android:id="@+id/showtech"
+       android:title="Only tech news"
+       app:showAsAction="never"/>
+
+</menu>
